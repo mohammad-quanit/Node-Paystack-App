@@ -1,7 +1,7 @@
 const request = require('request');
 
 const paystack = req => {
-  const mySecretKey = 'Bearer sk_test_dc0d134997b3acb3520f250b1286cd83802a179b';
+  const mySecretKey = 'Bearer **********';
 
   const initializePayment = (form, myCallBack) => {
     const option = {
